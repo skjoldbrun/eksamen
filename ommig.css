@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* JAVA KODNING */
+/* .hidescreen {
+  display: none;
+}
+
+#funfact {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("svg_spil/level_complete.svg");
+  z-index: 50;
+}
+
+#funfact_knap {
+  background-image: url("startknap.svg");
+  object-fit: contain;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  aspect-ratio: 1/1;
+  background-repeat: no-repeat;
+  top: 10%;
+  left: 4%;
+  z-index: 10;
+
+  animation-name: puls_kf;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+@keyframes puls_kf {
+  0% {
+    transform: scale(0.8);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+} */
+
+/* MOBILE FIRST */
+
+#billede img {
+  width: 50%;
+  height: 50%;
+}
+
+main {
+  height: 110vh;
+  background: linear-gradient(
+    to right,
+    #fda1f2 0%,
+    #fda1f2 50%,
+    #fa8140 50%,
+    #fa8140 100%
+  );
+}
+
+h1 {
+  font-family: "Londrina Outline", cursive;
+  color: white;
+}
+
+h2 {
+  font-family: cursive;
+  color: white;
+}
+
+#navn {
+  position: absolute;
+  top: 49%;
+  left: 2%;
+  font-size: 118%;
+  padding: 7px;
+}
+
+#farver {
+  position: absolute;
+  top: 54%;
+  left: 44%;
+  font-size: 94%;
+  padding: 7px;
+}
+
+#billede {
+  top: 57%;
+  left: 0%;
+  position: relative;
+}
+
+p {
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 80%;
+  font-weight: lighter;
+  margin-right: 10px;
+}
+
+#text1 {
+  width: 43vw;
+  height: auto;
+  top: 7%;
+  left: 55%;
+  position: absolute;
+  text-align: justify;
+  line-height: 130%;
+}
+
+#text2 {
+  width: 43vw;
+  height: auto;
+  top: 64%;
+  left: 55%;
+  position: absolute;
+  text-align: justify;
+  line-height: 130%;
+}
+
+a {
+  font-size: 100%;
+  text-decoration: none;
+  color: #fda1f2;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 300;
+  text-decoration: underline white;
+}
+
+@media (min-width: 800px) {
+  main {
+    height: 130vh;
+    width: auto;
+  }
+
+  #navn {
+    position: absolute;
+    top: 13%;
+    left: 5.5%;
+    font-size: 370%;
+  }
+
+  #farver {
+    position: absolute;
+    top: 29%;
+    left: 44%;
+    font-size: 300%;
+  }
+  #billede {
+    top: 17.5%;
+    left: 0%;
+    position: relative;
+  }
+
+  #billede img {
+    width: 40%;
+    height: auto;
+  }
+
+  #text1 {
+    width: 45vw;
+    height: auto;
+    top: 50%;
+    left: 52%;
+    position: absolute;
+    text-align: justify;
+    font-size: 180%;
+    line-height: 110%;
+  }
+
+  #text2 {
+    width: 45vw;
+    height: auto;
+    top: 88%;
+    left: 52%;
+    position: absolute;
+    font-size: 180%;
+    line-height: 110%;
+  }
+}
